@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 40px;
+    padding: 1px;
+
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  
+    
+}
+
+header{
+    background: url(lily-banse--YHSwy6uqvk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.titulo {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.comida {
+   border-radius: 25px;
+   margin-top: auto;
+   text-align: center;
+   background-color: black;
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+}
+
+
+.footer{
+    margin: 0px;
+    background: orangered;
+    text-align: left;
+}
+

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+.main-header{
+    background: url(pexels-helena-lopes-696218.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: 'Dosis', sans-serif;;
+    position: relative;
+}
+
+.main-nav{
+    background:  rgba(0, 0, 0, 0.507);
+    display: flex;
+}
+
+.logo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    padding: 20px 40px;
+    font-size: 1.2rem;
+}
+ul{
+    
+    display: flex;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+ul li a{
+    color: white;
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 1.1rem;
+
+}
+
+ul li a:hover{
+    background: rgb(39, 39, 182);
+}
+
+.content-header{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.content-header h1{
+    font-size: 5rem;
+}
+
+.content-header a{
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 15px 20px;
+    background: rgb(207, 93, 0);
+    color: white;
+    border-radius: 15px;
+    margin: 35px;
+}
+
+.content-header a:hover{
+    background: rgb(255, 81, 0);
+}
+
+.horario{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;;
+    font-size: 25px;
+}
